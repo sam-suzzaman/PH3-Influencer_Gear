@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ================
+  Common CSS
+===================*/
+.sec-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  margin: 0 auto;
+}
+
+/* =============
+  Navbar Styles
+ ===============*/
+nav {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.navbar {
+  padding: 1rem 0;
+}
+.brand {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.btn {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #e02c6d;
+  border-radius: 41px;
+  padding: 10px 24px;
+  text-decoration: none;
+}
+.btn > i {
+  margin-left: 8px;
+}
+
+/* =============
+  Hero Styles
+ ===============*/
+.hero-wrapper {
+  padding-top: 4rem;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-left-part {
+  padding-right: 5rem;
+}
+.hero-title {
+  font-size: 50px;
+  color: #3a3a3a;
+  font-weight: 700;
+}
+.hero-subtitle {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.hero-btn {
+  transition: all 0.3s ease-in;
+}
+.hero-btn:hover {
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+.hero-right-part {
+  width: 440px;
+  height: 414px;
+}
+.hero-right-part > img {
+  width: 100%;
+  animation: moving 3s linear infinite alternate-reverse;
+}
+
+@keyframes moving {
+  0% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(10px, -10px);
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(-10px, 10px);
+  }
+}
+
+/* ==========================
+  Popular collection Styles
+ ============================*/
