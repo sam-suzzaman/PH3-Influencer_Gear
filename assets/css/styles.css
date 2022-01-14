@@ -106,3 +106,69 @@ nav {
 /* ==========================
   Popular collection Styles
  ============================*/
+.collection-wrapper {
+  padding: 5rem 0;
+}
+.sec-title {
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.collection {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.collection > img {
+  /* width: 300px;
+  height: 256px; */
+  width: 100%;
+  border-radius: 5px;
+}
+.collection-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #18191f;
+  margin: 10px 0 5px 0;
+  text-transform: capitalize;
+}
+.collection-price {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.collection-rating {
+  font-size: 12px;
+  font-weight: 400;
+  color: #5e6366;
+  margin-bottom: 10px;
+}
+.collection-rating > i {
+  color: #fb8200;
+}
+.collection-info {
+  font-size: 13px;
+  color: #787885;
+  font-weight: 700;
+  margin-bottom: 2px;
+  line-height: 14px;
+}
+.collection-btn {
+  background-color: transparent;
+  color: #e02c6d;
+  text-transform: capitalize;
+  font-size: 16px;
+  display: block;
+  text-align: right;
+  padding: 0;
+  margin-top: 50px;
+}
