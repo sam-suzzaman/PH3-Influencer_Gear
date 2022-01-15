@@ -85,7 +85,7 @@ nav {
 }
 .hero-right-part > img {
   width: 100%;
-  animation: moving 3s linear infinite alternate-reverse;
+  animation: moving 5s linear infinite alternate-reverse;
 }
 
 @keyframes moving {
@@ -174,6 +174,58 @@ nav {
 }
 
 /* ==================
+  Call-out Styles
+ ====================*/
+.call-out-wrapper {
+  background-color: #d6d6d6;
+  margin-bottom: 5rem;
+  padding: 2rem 0;
+}
+.call-out-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.callout-text {
+  font-size: 35px;
+  color: #e02c6d;
+  letter-spacing: 1px;
+  line-height: 39px;
+}
+.callout-form form {
+  display: flex;
+  justify-content: flex-end;
+}
+.callout-form input {
+  border: 1px solid #e02c6d;
+  border-right: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  width: 65%;
+  background-color: transparent;
+}
+
+.callout-btn {
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  padding: 7px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  font-weight: 400;
+}
+.callout-btn:hover {
+  background-color: transparent;
+  color: #e02c6d;
+  border: 1px solid #e02c6d;
+}
+/* ==================
   Footer Styles
  ====================*/
 .footer {
@@ -184,14 +236,14 @@ nav {
 }
 .footer-logo {
   font-weight: 700;
-  font-style: 24px;
+  font-size: 24px;
   line-height: 36px;
   letter-spacing: 2px;
   margin-bottom: 3px;
 }
 .footer-cpy-text {
   font-weight: 400;
-  font-style: 14px;
+  font-size: 14px;
   line-height: 24px;
   color: #ebebeb;
 }
@@ -207,6 +259,10 @@ nav {
   margin-right: 24px;
   color: #fff;
   font-size: 18px;
+  transition: all 0.3s linear;
+}
+.footer-social-menu li:hover a {
+  color: #e02c6d;
 }
 .footer-social-menu li:last-child a {
   margin-right: 0;
