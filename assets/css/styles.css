@@ -30,6 +30,7 @@ nav {
   font-size: 24px;
   font-weight: 700;
   color: #3a3a3a;
+  cursor: pointer;
 }
 .btn {
   color: #fff;
@@ -320,6 +321,7 @@ nav {
     order: 2;
     margin-top: 30px;
     padding: 0;
+    text-align: center;
   }
   .hero-right-part {
     order: 1;
